@@ -1,0 +1,225 @@
+2018-04-04 14:25:01.448  INFO 4456 --- [restartedMain] com.travle.dreamsky.DreamskyApplication  : Starting DreamskyApplication on wujianqiang with PID 4456 (E:\java\springboot\dreamSky\target\classes started by Administrator in E:\java\springboot\dreamSky)
+2018-04-04 14:25:01.452  INFO 4456 --- [restartedMain] com.travle.dreamsky.DreamskyApplication  : No active profile set, falling back to default profiles: default
+2018-04-04 14:25:01.586  INFO 4456 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@43cb8b1c: startup date [Wed Apr 04 14:25:01 CST 2018]; root of context hierarchy
+2018-04-04 14:25:02.792  INFO 4456 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-04-04 14:25:02.823  INFO 4456 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-04-04 14:25:02.854  INFO 4456 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-04-04 14:25:03.368  INFO 4456 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6152781b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-04 14:25:03.805  INFO 4456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-04-04 14:25:03.837  INFO 4456 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-04-04 14:25:03.837  INFO 4456 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-04 14:25:03.837  INFO 4456 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_45\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;D:\StudySoftware\mysql\mysql5.7.21\bin;D:\StudySoftware\mongodb\bin;D:\StudySoftware\go\bin;D:\StudySoftware\Scripts\;D:\StudySoftware\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\StudySoftware\Docker Toolbox;D:\StudySoftware\mysql\mysql5.7.21\bin;.]
+2018-04-04 14:25:03.982  INFO 4456 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-04-04 14:25:03.982  INFO 4456 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2408 ms
+2018-04-04 14:25:04.182  INFO 4456 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-04-04 14:25:04.182  INFO 4456 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet com.travle.dreamsky.config.DruidStatViewServlet mapped to [/druid/*]
+2018-04-04 14:25:04.182  INFO 4456 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-04 14:25:04.182  INFO 4456 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-04 14:25:04.182  INFO 4456 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-04 14:25:04.182  INFO 4456 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-04 14:25:04.182  INFO 4456 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'druidWebStatFilter' to urls: [/*]
+2018-04-04 14:25:04.695  INFO 4456 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-04-04 14:25:04.727  INFO 4456 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-04 14:25:04.742  INFO 4456 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-04 14:25:04.820  INFO 4456 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-04 14:25:04.820  INFO 4456 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-04-04 14:25:04.869  INFO 4456 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-04 14:25:04.994  INFO 4456 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-04 14:25:05.213  INFO 4456 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-04 14:25:05.607  INFO 4456 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-04-04 14:25:06.572  INFO 4456 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@43cb8b1c: startup date [Wed Apr 04 14:25:01 CST 2018]; root of context hierarchy
+2018-04-04 14:25:06.612  WARN 4456 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-04 14:25:06.663  INFO 4456 --- [cluster-ClusterId{value='5ac46fc1d511341168c88f98', description='null'}-127.0.0.1:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server 127.0.0.1:27017
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62) ~[mongo-java-driver-3.6.3.jar:na]
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126) ~[mongo-java-driver-3.6.3.jar:na]
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114) ~[mongo-java-driver-3.6.3.jar:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_45]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_45]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_45]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345) ~[na:1.8.0_45]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_45]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_45]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_45]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_45]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_45]
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59) ~[mongo-java-driver-3.6.3.jar:na]
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57) ~[mongo-java-driver-3.6.3.jar:na]
+	... 3 common frames omitted
+
+2018-04-04 14:25:06.667  INFO 4456 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.travle.dreamsky.DreamskyApplication.sayHello()
+2018-04-04 14:25:06.671  INFO 4456 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/register]}" onto public java.lang.String com.travle.dreamsky.web.UserController.register(java.lang.String)
+2018-04-04 14:25:06.671  INFO 4456 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/hello]}" onto public java.lang.String com.travle.dreamsky.web.UserController.sayHello()
+2018-04-04 14:25:06.671  INFO 4456 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/find]}" onto public void com.travle.dreamsky.web.UserController.findAll()
+2018-04-04 14:25:06.671  INFO 4456 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/find2]}" onto public void com.travle.dreamsky.web.UserController.findById()
+2018-04-04 14:25:06.671  INFO 4456 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/findAllMongo]}" onto public void com.travle.dreamsky.web.UserController.findAllMongo()
+2018-04-04 14:25:06.675  INFO 4456 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-04 14:25:06.675  INFO 4456 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-04 14:25:06.711  INFO 4456 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 14:25:06.711  INFO 4456 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 14:25:06.773  INFO 4456 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 14:25:06.880  INFO 4456 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2018-04-04 14:25:07.180  INFO 4456 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-04-04 14:25:07.274  INFO 4456 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-04-04 14:25:07.274  INFO 4456 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-04-04 14:25:07.289  INFO 4456 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-04-04 14:25:07.336  INFO 4456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-04-04 14:25:07.336  INFO 4456 --- [restartedMain] com.travle.dreamsky.DreamskyApplication  : Started DreamskyApplication in 6.761 seconds (JVM running for 8.126)
+2018-04-04 14:25:31.667  INFO 4456 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-04 14:25:31.667  INFO 4456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-04 14:25:31.714  INFO 4456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 47 ms
+2018-04-04 14:25:31.844  INFO 4456 --- [http-nio-8080-exec-1] com.travle.dreamsky.web.UserController   : 请求入参：{'userId':'1001','userName':'hello','password':'123','phone':'15596828363'}
+2018-04-04 14:29:10.918  INFO 6424 --- [restartedMain] com.travle.dreamsky.DreamskyApplication  : Starting DreamskyApplication on wujianqiang with PID 6424 (E:\java\springboot\dreamSky\target\classes started by Administrator in E:\java\springboot\dreamSky)
+2018-04-04 14:29:10.942  INFO 6424 --- [restartedMain] com.travle.dreamsky.DreamskyApplication  : No active profile set, falling back to default profiles: default
+2018-04-04 14:29:11.102  INFO 6424 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6bdf14cb: startup date [Wed Apr 04 14:29:11 CST 2018]; root of context hierarchy
+2018-04-04 14:29:12.289  INFO 6424 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-04-04 14:29:12.320  INFO 6424 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-04-04 14:29:12.336  INFO 6424 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-04-04 14:29:12.868  INFO 6424 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c0ca0ef9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-04 14:29:13.338  INFO 6424 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-04-04 14:29:13.369  INFO 6424 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-04-04 14:29:13.369  INFO 6424 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-04 14:29:13.369  INFO 6424 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_45\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;D:\StudySoftware\mysql\mysql5.7.21\bin;D:\StudySoftware\mongodb\bin;D:\StudySoftware\go\bin;D:\StudySoftware\Scripts\;D:\StudySoftware\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\StudySoftware\Docker Toolbox;D:\StudySoftware\mysql\mysql5.7.21\bin;.]
+2018-04-04 14:29:13.529  INFO 6424 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-04-04 14:29:13.529  INFO 6424 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2427 ms
+2018-04-04 14:29:13.745  INFO 6424 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-04-04 14:29:13.745  INFO 6424 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet com.travle.dreamsky.config.DruidStatViewServlet mapped to [/druid/*]
+2018-04-04 14:29:13.761  INFO 6424 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-04 14:29:13.761  INFO 6424 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-04 14:29:13.761  INFO 6424 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-04 14:29:13.761  INFO 6424 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-04 14:29:13.761  INFO 6424 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'druidWebStatFilter' to urls: [/*]
+2018-04-04 14:29:14.449  INFO 6424 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-04-04 14:29:14.496  INFO 6424 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-04 14:29:14.512  INFO 6424 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-04 14:29:14.574  INFO 6424 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-04 14:29:14.574  INFO 6424 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-04-04 14:29:14.621  INFO 6424 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-04 14:29:14.743  INFO 6424 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-04 14:29:14.964  INFO 6424 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-04 14:29:15.352  INFO 6424 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-04-04 14:29:16.352  INFO 6424 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6bdf14cb: startup date [Wed Apr 04 14:29:11 CST 2018]; root of context hierarchy
+2018-04-04 14:29:16.401  WARN 6424 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-04 14:29:16.413  INFO 6424 --- [cluster-ClusterId{value='5ac470bbd5113419181823f3', description='null'}-127.0.0.1:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server 127.0.0.1:27017
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62) ~[mongo-java-driver-3.6.3.jar:na]
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126) ~[mongo-java-driver-3.6.3.jar:na]
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114) ~[mongo-java-driver-3.6.3.jar:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_45]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_45]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_45]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345) ~[na:1.8.0_45]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_45]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_45]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_45]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_45]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_45]
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59) ~[mongo-java-driver-3.6.3.jar:na]
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57) ~[mongo-java-driver-3.6.3.jar:na]
+	... 3 common frames omitted
+
+2018-04-04 14:29:16.453  INFO 6424 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.travle.dreamsky.DreamskyApplication.sayHello()
+2018-04-04 14:29:16.457  INFO 6424 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/register]}" onto public java.lang.String com.travle.dreamsky.web.UserController.register(java.lang.String)
+2018-04-04 14:29:16.457  INFO 6424 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/hello]}" onto public java.lang.String com.travle.dreamsky.web.UserController.sayHello()
+2018-04-04 14:29:16.457  INFO 6424 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/find]}" onto public void com.travle.dreamsky.web.UserController.findAll()
+2018-04-04 14:29:16.457  INFO 6424 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/find2]}" onto public void com.travle.dreamsky.web.UserController.findById()
+2018-04-04 14:29:16.457  INFO 6424 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/findAllMongo]}" onto public void com.travle.dreamsky.web.UserController.findAllMongo()
+2018-04-04 14:29:16.461  INFO 6424 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-04 14:29:16.461  INFO 6424 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-04 14:29:16.512  INFO 6424 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 14:29:16.512  INFO 6424 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 14:29:16.575  INFO 6424 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 14:29:16.697  INFO 6424 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2018-04-04 14:29:17.012  INFO 6424 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-04-04 14:29:17.121  INFO 6424 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-04-04 14:29:17.121  INFO 6424 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-04-04 14:29:17.137  INFO 6424 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-04-04 14:29:17.181  INFO 6424 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-04-04 14:29:17.197  INFO 6424 --- [restartedMain] com.travle.dreamsky.DreamskyApplication  : Started DreamskyApplication in 7.168 seconds (JVM running for 8.797)
+2018-04-04 14:29:20.450  INFO 6424 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-04 14:29:20.454  INFO 6424 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-04 14:29:20.466  INFO 6424 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 12 ms
+2018-04-04 14:29:20.591  INFO 6424 --- [http-nio-8080-exec-1] com.travle.dreamsky.web.UserController   : 请求入参：{'userId':'1001','userName':'hello','password':'123','phone':'15596828363'}
+2018-04-04 14:50:05.853  INFO 8356 --- [restartedMain] com.travle.dreamsky.DreamskyApplication  : Starting DreamskyApplication on wujianqiang with PID 8356 (E:\java\springboot\dreamSky\target\classes started by Administrator in E:\java\springboot\dreamSky)
+2018-04-04 14:50:05.861  INFO 8356 --- [restartedMain] com.travle.dreamsky.DreamskyApplication  : No active profile set, falling back to default profiles: default
+2018-04-04 14:50:05.965  INFO 8356 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@95dd74f: startup date [Wed Apr 04 14:50:05 CST 2018]; root of context hierarchy
+2018-04-04 14:50:07.370  INFO 8356 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-04-04 14:50:07.411  INFO 8356 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-04-04 14:50:07.431  INFO 8356 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-04-04 14:50:08.026  INFO 8356 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d574abec] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-04 14:50:08.511  INFO 8356 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-04-04 14:50:08.544  INFO 8356 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-04-04 14:50:08.544  INFO 8356 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-04 14:50:08.544  INFO 8356 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_45\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;D:\StudySoftware\mysql\mysql5.7.21\bin;D:\StudySoftware\mongodb\bin;D:\StudySoftware\go\bin;D:\StudySoftware\Scripts\;D:\StudySoftware\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\StudySoftware\Docker Toolbox;D:\StudySoftware\mysql\mysql5.7.21\bin;.]
+2018-04-04 14:50:08.717  INFO 8356 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-04-04 14:50:08.717  INFO 8356 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2752 ms
+2018-04-04 14:50:08.979  INFO 8356 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-04-04 14:50:08.979  INFO 8356 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet com.travle.dreamsky.config.DruidStatViewServlet mapped to [/druid/*]
+2018-04-04 14:50:08.979  INFO 8356 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-04 14:50:08.979  INFO 8356 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-04 14:50:08.979  INFO 8356 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-04 14:50:08.979  INFO 8356 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-04 14:50:08.979  INFO 8356 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'druidWebStatFilter' to urls: [/*]
+2018-04-04 14:50:09.559  INFO 8356 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-04-04 14:50:09.611  INFO 8356 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-04 14:50:09.627  INFO 8356 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-04 14:50:09.697  INFO 8356 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-04 14:50:09.701  INFO 8356 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-04-04 14:50:09.741  INFO 8356 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-04 14:50:09.866  INFO 8356 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-04 14:50:10.060  INFO 8356 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-04 14:50:10.496  INFO 8356 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-04-04 14:50:11.624  INFO 8356 --- [cluster-ClusterId{value='5ac475a2d5113420a4279294', description='null'}-127.0.0.1:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server 127.0.0.1:27017
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62) ~[mongo-java-driver-3.6.3.jar:na]
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126) ~[mongo-java-driver-3.6.3.jar:na]
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114) ~[mongo-java-driver-3.6.3.jar:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_45]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_45]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_45]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345) ~[na:1.8.0_45]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_45]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_45]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_45]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_45]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_45]
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59) ~[mongo-java-driver-3.6.3.jar:na]
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57) ~[mongo-java-driver-3.6.3.jar:na]
+	... 3 common frames omitted
+
+2018-04-04 14:50:11.716  INFO 8356 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@95dd74f: startup date [Wed Apr 04 14:50:05 CST 2018]; root of context hierarchy
+2018-04-04 14:50:11.763  WARN 8356 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-04 14:50:11.794  INFO 8356 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.travle.dreamsky.DreamskyApplication.sayHello()
+2018-04-04 14:50:11.810  INFO 8356 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/register]}" onto public java.lang.String com.travle.dreamsky.web.UserController.register(java.lang.String)
+2018-04-04 14:50:11.810  INFO 8356 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/hello]}" onto public java.lang.String com.travle.dreamsky.web.UserController.sayHello()
+2018-04-04 14:50:11.810  INFO 8356 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/findAllMongo]}" onto public void com.travle.dreamsky.web.UserController.findAllMongo()
+2018-04-04 14:50:11.810  INFO 8356 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/find]}" onto public void com.travle.dreamsky.web.UserController.findAll()
+2018-04-04 14:50:11.810  INFO 8356 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/find2]}" onto public void com.travle.dreamsky.web.UserController.findById()
+2018-04-04 14:50:11.810  INFO 8356 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-04 14:50:11.810  INFO 8356 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-04 14:50:11.872  INFO 8356 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 14:50:11.872  INFO 8356 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 14:50:11.936  INFO 8356 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 14:50:12.027  INFO 8356 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2018-04-04 14:50:12.338  INFO 8356 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-04-04 14:50:12.462  INFO 8356 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-04-04 14:50:12.462  INFO 8356 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-04-04 14:50:12.466  INFO 8356 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-04-04 14:50:12.510  INFO 8356 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-04-04 14:50:12.526  INFO 8356 --- [restartedMain] com.travle.dreamsky.DreamskyApplication  : Started DreamskyApplication in 7.661 seconds (JVM running for 9.078)
+2018-04-04 14:50:26.694  INFO 8356 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-04 14:50:26.694  INFO 8356 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-04 14:50:26.723  INFO 8356 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 29 ms
+2018-04-04 14:50:26.848  INFO 8356 --- [http-nio-8080-exec-1] com.travle.dreamsky.web.UserController   : 请求入参：{'userId':'1001','userName':'hello','password':'123','phone':'15596828363'}

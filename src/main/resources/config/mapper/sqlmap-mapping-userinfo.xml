@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+        "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+
+<mapper namespace="com.travle.dreamsky.mapper.UserMapper">
+    <!-- parameterType:参数类型,填写实体类的完整名字 -->
+    <resultMap type="com.travle.dreamsky.domain.UserInfo" id="userInfo">
+        <id     column="user_id" property="userId" />
+        <result column="user_name" property="userName" />
+        <result column="pass_word" property="passWord" />
+        <result column="phone" property="phone" />
+    </resultMap>
+
+
+    <select id="findAll" resultMap="userInfo">
+        select * from user_info
+    </select>
+
+    <select id="findById" parameterType="com.travle.dreamsky.domain.UserInfo" resultMap="userInfo">
+        select * from user_info where user_id = #{userId}
+    </select>
+
+</mapper>

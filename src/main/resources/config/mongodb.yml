@@ -1,0 +1,23 @@
+mongo:
+  host: 127.0.0.1
+  port: 27017
+  database: admin
+  mongousername: root
+  password: root
+  connectionsPerHost: 10
+  threadsAllowedToBlockForConnectionMultiplier: 5
+  minConnectionsPerHost: 5
+  #连接超时时间
+  connectTimeout: 10000
+  #等待时间
+  maxWaitTime: 120000
+  #Socket超时时间
+  socketTimeout: 0
+  socketKeepAlive: true
+  description: joyven test mongodb database
+  maxConnectionIdleTime: 1500
+  maxConnectionLifeTime: 0
+  heartbeatSocketTimeout: 1000
+  heartbeatConnectTimeout: 1500
+  minHeartbeatFrequency: 5
+  heartbeatFrequency: 10

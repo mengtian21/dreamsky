@@ -1,0 +1,8 @@
+2018-04-04 15:40:25,542 INFO (StartupInfoLogger.java:59)- Started DreamskyApplication in 7.065 seconds (JVM running for 8.89)
+2018-04-04 15:40:30,419 INFO (UserController.java:37)- 请求入参：{'userId':'1001','userName':'hello','password':'123','phone':'15596828363'}
+2018-04-04 15:42:41,997 INFO (StartupInfoLogger.java:50)- Starting DreamskyApplication on wujianqiang with PID 5956 (E:\java\springboot\dreamSky\target\classes started by Administrator in E:\java\springboot\dreamSky)
+2018-04-04 15:42:42,003 INFO (SpringApplication.java:652)- No active profile set, falling back to default profiles: default
+2018-04-04 15:42:47,884 INFO (StartupInfoLogger.java:59)- Started DreamskyApplication in 7.187 seconds (JVM running for 8.67)
+2018-04-04 15:42:57,526 INFO (UserController.java:37)- 请求入参：{'userId':'1001','userName':'hello','password':'123','phone':'15596828363'}
+2018-04-04 15:43:54,790 INFO (StartupInfoLogger.java:50)- Starting DreamskyApplication on wujianqiang with PID 11920 (E:\java\springboot\dreamSky\target\classes started by Administrator in E:\java\springboot\dreamSky)
+2018-04-04 15:43:54,806 INFO (SpringApplication.java:652)- No active profile set, falling back to default profiles: default

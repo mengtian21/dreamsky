@@ -1,0 +1,5 @@
+2018-04-04 16:04:56.301 - INFO 4396 --- [tp-nio-8080-exec-3] com.travle.dreamsky.web.UserController      37 : 请求入参：{'userId':'1001','userName':'hello','password':'123','phone':'15596828363'}
+2018-04-04 16:04:56.494 - INFO 4396 --- [tp-nio-8080-exec-4] com.travle.dreamsky.web.UserController      37 : 请求入参：{'userId':'1001','userName':'hello','password':'123','phone':'15596828363'}
+2018-04-04 16:07:39.291 - INFO 10224 --- [  restartedMain] com.travle.dreamsky.DreamskyApplication     50 : Starting DreamskyApplication on wujianqiang with PID 10224 (E:\java\springboot\dreamSky\target\classes started by Administrator in E:\java\springboot\dreamSky)
+2018-04-04 16:07:39.291 - INFO 10224 --- [  restartedMain] com.travle.dreamsky.DreamskyApplication    652 : No active profile set, falling back to default profiles: default
+2018-04-04 16:07:45.120 - INFO 10224 --- [  restartedMain] com.travle.dreamsky.DreamskyApplication     59 : Started DreamskyApplication in 6.801 seconds (JVM running for 8.703)
