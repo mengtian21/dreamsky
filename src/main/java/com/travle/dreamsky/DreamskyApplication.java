@@ -15,6 +15,10 @@ public class DreamskyApplication {
 		return "hello world!";
 	}
 
+	@RequestMapping("/testgit")
+	public String testgit() {
+		return "hello github!";
+	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(DreamskyApplication.class, args);
